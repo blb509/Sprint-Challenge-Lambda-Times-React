@@ -58,11 +58,13 @@ const ContainerCenter = styled.div`
 const CenterSpan = styled.span`
   cursor: pointer;
   margin-right: 5%;
+  &:hover {text-decoration: underline;}
 `;
 
 const CenterSpanLast = styled.span`
   cursor: pointer;
   margin-right: 0;
+  &:hover {text-decoration: underline;}
 `;
 
 const ContainerRight = styled.div`
